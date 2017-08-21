@@ -550,7 +550,7 @@
                                             <constraint firstAttribute="trailing" secondItem="yjA-zX-qxh" secondAttribute="trailing" constant="10" id="vUi-OB-RFa"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="avatarImage" destination="yjA-zX-qxh" id="MwJ-TU-RMz"/>
+                                            <outlet property="avatarImg" destination="yjA-zX-qxh" id="KLK-Tr-e9K"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
