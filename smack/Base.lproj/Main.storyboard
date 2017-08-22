@@ -111,7 +111,7 @@
                                 <rect key="frame" x="281" y="83" width="22" height="22"/>
                                 <state key="normal" image="addChannelButton"/>
                                 <connections>
-                                    <action selector="addChannelPressed:" destination="PTJ-lW-he0" eventType="touchUpInside" id="5gQ-du-2sL"/>
+                                    <action selector="addChannelPressed:" destination="PTJ-lW-he0" eventType="touchUpInside" id="lhj-LM-wi1"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="PdL-yX-xMY" customClass="CircleImage" customModule="smack" customModuleProvider="target">
