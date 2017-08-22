@@ -37,6 +37,12 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             performSegue(withIdentifier: TO_LOGIN, sender: nil)
         }
     }
+    
+    @IBAction func addChannelPressed(_ sender: Any) {
+        let addChannel = ChannelVC()
+        addChannel.modalPresentationStyle = .custom
+        present(addChannel, animated: true, completion: nil)
+    }
 
     @objc func userDataDidChange(_ notif: Notification) {
         setupUserInfo()
@@ -71,4 +77,5 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return MessageService.instance.channels.count
     }
+
 }
