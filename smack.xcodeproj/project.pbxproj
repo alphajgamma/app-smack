@@ -33,6 +33,7 @@
 		A1A9509E1F498EFD00870F4A /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A9509D1F498EFD00870F4A /* RoundedButton.swift */; };
 		A1B7AFFA1F4D96EF00105315 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B7AFF91F4D96EF00105315 /* Message.swift */; };
 		A1B7AFFC1F4DCE2900105315 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B7AFFB1F4DCE2900105315 /* KeyboardBoundView.swift */; };
+		A1B7AFFE1F4DD6DC00105315 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B7AFFD1F4DD6DC00105315 /* MessageCell.swift */; };
 		A1D4A04D1F4C6C910040D38E /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D4A04C1F4C6C910040D38E /* ChannelCell.swift */; };
 		D76574AEFCF27EA3C600CCBB /* Pods_smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2B74C4077A2BCB5304C4DB /* Pods_smack.framework */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,7 @@
 		A1A9509D1F498EFD00870F4A /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		A1B7AFF91F4D96EF00105315 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		A1B7AFFB1F4DCE2900105315 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		A1B7AFFD1F4DD6DC00105315 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		A1D4A04C1F4C6C910040D38E /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		B086E3D041C26CC21EBE1D4F /* Pods-smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-smack/Pods-smack.release.xcconfig"; sourceTree = "<group>"; };
 		CE2B74C4077A2BCB5304C4DB /* Pods_smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +175,7 @@
 				A131010E1F4AEC750086CC0C /* CircleImage.swift */,
 				A1D4A04C1F4C6C910040D38E /* ChannelCell.swift */,
 				A1B7AFFB1F4DCE2900105315 /* KeyboardBoundView.swift */,
+				A1B7AFFD1F4DD6DC00105315 /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				A1D4A04D1F4C6C910040D38E /* ChannelCell.swift in Sources */,
 				A10112E41F471696002D69F8 /* ChatVC.swift in Sources */,
 				A131010B1F4AD4D10086CC0C /* AvatarPickerVC.swift in Sources */,
+				A1B7AFFE1F4DD6DC00105315 /* MessageCell.swift in Sources */,
 				A1A9509E1F498EFD00870F4A /* RoundedButton.swift in Sources */,
 				A1B7AFFA1F4D96EF00105315 /* Message.swift in Sources */,
 				A167AED81F4C405A000FD428 /* Channel.swift in Sources */,
