@@ -61,8 +61,9 @@ class MessageService {
                         let message = Message(message: messageBody, userName: userName, channelId: channelId, userAvatar: userAvatar, userAvatarColor: userAvatarColor, id: id, timeStamp: timeStamp)
                         self.messages.append(message)
                     }
+                    print(self.messages)
+                    completion(true)
                 }
-                completion(true)
             } else {
                 debugPrint(response.result.error as Any)
                 completion(false)
