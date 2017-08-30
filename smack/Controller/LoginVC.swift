@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+class LoginVC: UIViewController, UITextFieldDelegate {
 
     // Outlets
     @IBOutlet weak var userNameTxt: UITextField!
@@ -17,12 +17,31 @@ class LoginVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.userNameTxt.delegate = self
+        self.passwordTxt.delegate = self
         setupView()
     }
     
-
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        switch textField
+        {
+        case self.userNameTxt:
+            self.passwordTxt.becomeFirstResponder()
+            break
+        case self.passwordTxt:
+            performLogin()
+            break
+        default:
+            textField.resignFirstResponder()
+        }
+        return true
+    }
     
     @IBAction func loginPressed(_ sender: Any) {
+        performLogin()
+    }
+    
+    func performLogin() {
         spinner.isHidden = false
         spinner.startAnimating()
         

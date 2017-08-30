@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -47,7 +47,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIP-hh-C0H">
-                                        <rect key="frame" x="12" y="47" width="24" height="18"/>
+                                        <rect key="frame" x="12" y="37" width="24" height="18"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="24" id="BDA-2s-enY"/>
                                             <constraint firstAttribute="height" constant="18" id="Yc6-1A-MDQ"/>
@@ -55,7 +55,7 @@
                                         <state key="normal" image="smackBurger"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Cy-uu-luE">
-                                        <rect key="frame" x="161" y="45.5" width="52" height="21"/>
+                                        <rect key="frame" x="161" y="35.5" width="52" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -65,7 +65,7 @@
                                 <constraints>
                                     <constraint firstItem="UIP-hh-C0H" firstAttribute="leading" secondItem="LJl-Iu-qEE" secondAttribute="leading" constant="12" id="L2a-8S-O8S"/>
                                     <constraint firstItem="8Cy-uu-luE" firstAttribute="centerX" secondItem="LJl-Iu-qEE" secondAttribute="centerX" id="SF3-uX-S4Q"/>
-                                    <constraint firstAttribute="bottom" secondItem="UIP-hh-C0H" secondAttribute="bottom" constant="12" id="fu7-2g-ywW"/>
+                                    <constraint firstAttribute="bottom" secondItem="UIP-hh-C0H" secondAttribute="bottom" constant="22" id="fu7-2g-ywW"/>
                                     <constraint firstItem="8Cy-uu-luE" firstAttribute="centerY" secondItem="UIP-hh-C0H" secondAttribute="centerY" id="r0Z-2N-DHt"/>
                                     <constraint firstAttribute="height" constant="77" id="x5q-q5-dx7"/>
                                 </constraints>
